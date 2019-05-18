@@ -1,46 +1,115 @@
-# Title
+# The God War Chronicles - The Role-playing Game
 
 ## Executive Summary
 
-*Your executive summary should be pretty brief, under 3 paragraphs and should provide a concise summary of the purpose and contents of the rest of the document.  Explain to the reader what they will get from this document.*
+*The God War Chronicles game is a text-based role playing game.  The idea is to have multiple races, abilities, and alliances to choose from.  The user should be able to enter in a character name, select a race, abilities, and allegiances to start.  With each choice, the site should bring up sub-categories for each.  For instance, you start with the ability to choose your characters gender: male, female, or neither.  Based on that selection, the page will change to illuminate the races available to the gender chosen.  Each race will have an overall aspect summary when clicked on, and after which the user must click submit to continue to the sub-races based on the race chosen, also with aspect summaries next to each.  This process will continue through each phase of character creation including history, physical characteristics, and finally name, which will be typed in and submitted as the final step. After character creation, the user will join a party of other players who will interact as the text story carries them through different scenarios and adventures, just like a Dungeon Master would in any tabletop roleplaying game.*
 
 ## Business Objectives
 
-*Business objectives should offer the details for why the project is important.  Outline the goals of the project int he sense of the value it will bring and set expectations.  Keep your objectives measurable to avoid confusion in whether or not they have been met.*
+*Create a website with a lobby for game play.  Have a description page describing the world, races, and events currently taking place.  Allow for future game updates.  Have a registration page in the top right corner and navigation in the left corner with the God War logo from the book series in the center top of page.  Have a side navigation bar with the ability to jump to particular topics, forums, or groups.  After the user has signed in, a play button should be seen in the top right hand corner beside logout.  All of this should be able to toggle into smaller dropdown menus based on screen size.  The background color should be light but dark enough to not interfere or draw the eye away from the page content itself.  If possible, find a background image of the main characters featured in book series: Zeus, the Black Hunter, etc.  The main page should only be visible immediately upon arriving at sight, but should only be returned to if Home or logo clicked on.  Otherwise, the game play page should list characters and scenarios as well as a side panel with each player within the party with a dropdown for history, allegiance, race, and everything created upon character creation.*
 
 ## Background
 
-*Provide any relevant background information regarding why this project is being initiated*
+*This game is to take place during the Second God War series.  Each character is developed by the user to interract in the events that occurred throughout the book series leading up to the conclusion of the Second God War and the beginning of the Time Between and the Race Wars, which will eventually be added into an expasion series.  This project to build this game is to see if the possibility of building a vrmmo or mmo is a future possibility on a grander scale.  The idea is to draw players in and plan for more.*
 
 ## Scope
 
-*The Scope section should outline what is and is not included as part of this project.  Oftentimes we make assumptions of features or functionality that is not necessarily required.  This is especially useful in a phased approach or when working on an existing system.*
+*The development of the webpage with registration, database, character creation capabilities, and the first scenario are the primary goal.  The rest will follow as the project gets underway and patches are added.*
 
 ## Functional requirements
 
-*This is where most of the detail should reside.  describe all of the required capabilities of the system in detail.  It is helpful to articulate features in terms of user capabilities.  Keep in mind that the features will be designed and developed off of these descriptions, so if you leave anything up to interpretation, you run the risk of the results not meeting your expectations.  You can also assume capabilities that are not mentioned here will not be included in the project, no matter how common or obvious they are.  You may want to break our subsections for each major feature to make the document more organized.*
+*
+1) Header with login/register feature.
+2) Logo in Center representive of the Book series the idea comes from.
+3) Navigation bar on left top of header with Home, Characters, Worlds, History, and Store listed as links to each of the followings main pages.
+4) A secondary Nav bar the runs down the left side of screen to guide to forums and topics.
+5) The main page should have a brief description at the top of the page describing game and functionality.
+6) A play button that should link to the game page should be in the top right corner beside login/register and should only be accessiable if registered.
+7) A database should store users and the respective characters and designs.
+8) A discussion board should be linked at the bottom of the page in the footer
+9) Also in the footer should be a link to the contact page, credit page, support page, FAQ page, and backup links for the header, such as sitemap.
+10) For startup, the main page should be the only functional page with Coming Soon listed for all else, until the pages are assembled.
+11) Secure login needs to be a priority
+*
 
 
 ## Personnel requirements
 
-*In this section you may want to describe the composition of the team, do you need dedicated development?  how many people?  How about design or QA?  Think about what personnel is required to make this project a success, and place your recommendations here.*
+*
+1) HTML/CSS Team
+2) C#/JavaScript Team
+3) Security Team
+4) QA Team
+5) Maintenance Team
+6) Scenario Team
+*
 
 ## Delivery schedule
 
-*It's often helpful to break a project out into phases or milestones.  In this section list out any logical checkpoints where you would like to see the project demonstrated to ensure that expectations are being met.  Describe the phase, and the functional requirements required for completion.*
+*
+
+Phase 1
+
+  Main Page should be built with all links listed.
+  
+Phase 2
+
+  Login/Register page should be built with security and all other pages should list Coming Soon.
+  
+Phase 3
+ 
+  Play button should appear after Login and link to game pages with first page listing Choose Your Characters Gender.
+  
+Phase 4
+
+  Each page of the Character creation should work and not appear until after completion of previous page.
+ 
+Phase 5
+  
+  First Scenario should be playable with One player and AI's.
+
+Phase 6
+  
+  Multiplayer interface should be implemented and playable up through the first scenario.
+
+Phase 7
+
+  History page, Characters Page, Contact Page, FAQ Page, Credit Page, Support Page, and Worlds Page should all be accessible and usable.
+
+Phase 8
+  
+  Alpha Test should be complete and Beta stage should begin with more scenarios being developed and implemented.
+  
+Phase 9
+
+  All pages should be complete and accessible with content that pertains to the each pages title.  Other links and pages should be in development and thoughts.
+  
+Phase 10
+  
+  Beta test should be complete and game should be ready for initial release of first and second scenarios.
+  
+Phase 11
+
+  An algorithm should be written to create scenarios and balance world game play.
+
+Phase 12
+
+  Expansions should be slowly added and updates on game play and scenarios.
+  
+*
 
 ## Other requirements
 
-*This section serves as a catch-all for any details that may not fit in other areas.  things like device or browser support, considerations for accessibility or inspiration for style.  Offer additional context here to ensure the project meets your vision*
+*The game should be accessible from all devices, with the possibility to create an app.*
 
 ## Assumptions
 
-*Oftentimes we are reliant on outside sources such as frameworks to be used, or services that our system will depend on.  In this section you should provide detail on any assumptions that you have made, such as the system being reliant on the availability of the Google Maps API.*
+*A database needs to be in place for each character and there needs to be a even flow of communication between players, requiring some type of chat dialog within game play.*
 
 ## Limitations
 
-*Identify any limitations in terms of time, personnel, technical details, or other things that limit the scope, time, and cost of the project being discussed.*
+*The Game will not be fully functional at first go round.  It should be playable up through the first scenario, but there needs to be work planned out for creation of algorithms or something to create game scenarios*
 
 ## Risks
 
-*Every project has inherent risks that may cause delay or even failure of a project.  You must identify this risks to show you know what they are, and also identify ways in which you would mitigate those risks.*
+*This project may not be complete within time allotment, and the scenarios may not be possible to be created via an algorithm.*
